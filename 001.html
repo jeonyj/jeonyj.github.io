@@ -1,0 +1,68 @@
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+ul, li {
+	margin:0; 
+	padding:0;
+}
+ul {
+	width:230px;
+	overflow:hidden;
+	border-left:1px solid #000;
+}
+li {
+	list-style:none;
+	float:left;
+	border-bottom:1px solid #000;
+	border-right:1px solid #000;
+	border-top:1px solid #000;
+	text-align:center;
+}
+a {
+	padding:10px 15px;
+	color:#000;
+	text-decoration:none;	
+	line-height:1.6;
+}
+li.active {
+	border-bottom:0;
+}
+
+li.active a {
+	color:#ff0000;
+	font-weight:bold;
+}
+li a:hover {
+	cursor:pointer;
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+	<li><a href="#">title1</a></li>
+</ul>
+<hr><br><br>
+
+<ul>
+	<li class="active"><a href="#">title1</a></li>
+	<li ><a href="#">title2</a></li>
+	<li><a href="#">title3</a></li>
+</ul>
+<br><br>
+<ul>
+	<li><a href="#">title1</a></li>
+	<li class="active"><a href="#">title2</a></li>
+	<li><a href="#">title3</a></li>
+</ul>
+<br><br>
+<ul>
+	<li><a href="#">title1</a></li>
+	<li><a href="#">title2</a></li>
+	<li class="active"><a href="#">title3</a></li>
+</ul>
+
+</body>
+</html>
